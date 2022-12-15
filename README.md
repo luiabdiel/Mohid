@@ -29,6 +29,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Clone the repo, install dependencies, and start the Hugo server locally.
+
+```shell
+git clone https://github.com/luiabdiel/Mohid.git
+cd mohid
+npm i
+npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
