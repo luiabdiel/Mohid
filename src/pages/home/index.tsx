@@ -2,8 +2,8 @@ import { useState } from "react"
 import { ThemeProvider } from "styled-components"
 
 import { Header, MenuMobile } from "../../shared/components"
+import { defaultTheme, GlobalStyle } from "../../styles"
 
-import { defaultTheme, GlobalStyle } from "../../shared/styles"
 import { HomeContainer } from "./styles"
 
 export const Home = () => {

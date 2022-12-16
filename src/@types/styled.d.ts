@@ -1,4 +1,4 @@
-import { defaultTheme } from "../shared/styles";
+import { defaultTheme } from "../styles";
 
 type ThemeType = typeof defaultTheme;
 

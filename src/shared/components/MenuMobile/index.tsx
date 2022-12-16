@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { IMobileMenuProps } from '../../interfaces'
 
-import Logo from '../../assets/images/logo.svg'
+import Logo from '../../../assets/images/logo.svg'
 
 import { LogoContainerMobile, MenuMobileContainer, MenuMobileLink } from './styles'
 

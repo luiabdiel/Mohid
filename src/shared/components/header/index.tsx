@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { BsPersonFill, BsCartFill } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
-import Logo from '../../assets/images/logo.svg'
+import Logo from '../../../assets/images/logo.svg'
 
 import { ContainerIcons, HeaderContainer, LogoContainer, NavbarContainer, NavbarLink, OpenMenuMobile } from './styles'
 import { IHeaderProps } from '../../interfaces'
