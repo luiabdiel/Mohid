@@ -24,8 +24,8 @@ export const Header:React.FC<IHeaderProps> = ({ setMenuIsVisible }) => {
                 </ul>
             </NavbarContainer>
             <ContainerIcons>
-                <BsPersonFill size={22}/>
-                <BsCartFill size={22}/>
+                <Link to="/profile"><BsPersonFill size={22}/></Link>
+                <Link to="/shoppingCart"><BsCartFill size={22}/></Link>
             </ContainerIcons>
             <OpenMenuMobile>
                 <GiHamburgerMenu onClick={() => setMenuIsVisible(true)}  size={22}/>

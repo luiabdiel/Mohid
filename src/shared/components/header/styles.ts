@@ -13,11 +13,13 @@ export const HeaderContainer = styled.div`
 
     padding-inline: 1rem;
 
+    margin-bottom: 70px;
+
     svg {
         color: ${({ theme }) => theme.white};
     }
 
-    @media (max-width: 700px){
+    @media (max-width: 768px){
         padding-inline: 1rem;
     }
 `
@@ -38,7 +40,7 @@ export const NavbarContainer = styled.nav`
         gap: 1.6875rem;
     }
 
-    @media (max-width: 700px){
+    @media (max-width: 768px){
         display: none;
     }
 `
@@ -58,13 +60,13 @@ export const ContainerIcons = styled.div`
     display: flex;
     gap: 1rem;
 
-    @media (max-width: 700px){
+    @media (max-width: 768px){
         display: none;
     }
 `
 
 export const OpenMenuMobile = styled.div`
-   @media (min-width: 700px){
+   @media (min-width: 768px){
         display: none;
     }
 `

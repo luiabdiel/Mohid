@@ -2,7 +2,9 @@ import { useState } from "react"
 import { ThemeProvider } from "styled-components"
 
 import { Header, MenuMobile } from "../../shared/components"
+
 import { defaultTheme, GlobalStyle } from "../../styles"
+import { Main } from "./components/main"
 
 import { HomeContainer } from "./styles"
 
@@ -19,7 +21,8 @@ export const Home = () => {
                     />
                     <Header 
                         setMenuIsVisible={setMenuIsVisible}
-                    />  
+                    />
+                    <Main />
                 </HomeContainer>
         </ThemeProvider>
     )
