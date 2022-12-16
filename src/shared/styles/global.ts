@@ -10,11 +10,10 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: ${({ theme }) => theme['white-300']};
-        color: ${({ theme }) => theme["black-300"]};
+                
+        color: ${({ theme }) => theme["black-700"]};
 
         -webkit-font-smoothing: antialiased;
-
-        margin: 0 auto;
     }
 
     body, input, textarea, button {
