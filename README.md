@@ -10,7 +10,7 @@
     Mohid - Ecommerce
 </h1>
 
-![Design preview from Mohid Ecommerce](./assets//images//template.png)
+![Design preview from Mohid Ecommerce](./src/shared/assets/images/template.png)
 
 <p align="center"><a href="https://www.figma.com/file/UlO4fZQurhS4lfAVDJFPPW/Smart-Watch-eCommerce-Website-(Community)?t=beQgD2cMG9J3dGYc-0">Mohid Ecommerce</a>  for study purposes. <a href="https://splendid-peony-668ca6.netlify.app">Deploy</a></p>
 
