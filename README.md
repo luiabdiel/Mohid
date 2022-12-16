@@ -10,9 +10,9 @@
     Mohid - Ecommerce
 </h1>
 
-![Design preview from the calculator](./assets//images//template.png)
+![Design preview from Mohid Ecommerce](./assets//images//template.png)
 
-<p align="center"><a href="https://www.figma.com/file/UlO4fZQurhS4lfAVDJFPPW/Smart-Watch-eCommerce-Website-(Community)?t=beQgD2cMG9J3dGYc-0">Mohid Ecommerce</a>  for study purposes.</p>
+<p align="center"><a href="https://www.figma.com/file/UlO4fZQurhS4lfAVDJFPPW/Smart-Watch-eCommerce-Website-(Community)?t=beQgD2cMG9J3dGYc-0">Mohid Ecommerce</a>  for study purposes. <a href="https://splendid-peony-668ca6.netlify.app">Deploy</a></p>
 
 <hr>
 
@@ -28,6 +28,15 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Clone the repo, install dependencies, and start the Hugo server locally.
+
+```shell
+git clone https://github.com/luiabdiel/Mohid.git
+cd mohid
+npm i
+npm start
+```
 
 ## Available Scripts
 
