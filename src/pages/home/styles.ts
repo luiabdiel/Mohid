@@ -5,3 +5,10 @@ export const HomeContainer = styled.div`
 
     height: 100vh;
 `
+
+export const OurClockGrid = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+`

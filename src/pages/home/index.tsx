@@ -5,8 +5,9 @@ import { Header, MenuMobile } from "../../shared/components"
 
 import { defaultTheme, GlobalStyle } from "../../styles"
 import { Main } from "./components/main"
+import { Brands } from "./components/brands"
 
-import { HomeContainer } from "./styles"
+import { HomeContainer, OurClockGrid } from "./styles"
 
 export const Home = () => {
     const [menuIsVisible, setMenuIsVisible] = useState(false)
@@ -24,6 +25,11 @@ export const Home = () => {
                     />
                     <Main />
                 </HomeContainer>
+                <OurClockGrid>
+                    <Brands />
+                    <Brands />
+                    <Brands />
+                </OurClockGrid>
         </ThemeProvider>
     )
 }
