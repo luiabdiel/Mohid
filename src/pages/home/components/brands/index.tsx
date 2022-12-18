@@ -1,4 +1,4 @@
-import Clock from '../../../../assets/images/clock.svg'
+import Clock from '../../../../assets/images/clock-iphone.svg'
 import { BrandsContainer } from './styles'
 
 export const Brands = () => {
