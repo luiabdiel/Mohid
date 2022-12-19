@@ -4,10 +4,10 @@ import { ThemeProvider } from "styled-components"
 import { Header, MenuMobile } from "../../shared/components"
 
 import { defaultTheme, GlobalStyle } from "../../styles"
-import { Main } from "./components/main"
 import { Brands } from "./components/brands"
+import { Main } from "./components/main"
 
-import { HomeContainer, OurClockGrid } from "./styles"
+import { HomeContainer } from "./styles"
 
 export const Home = () => {
     const [menuIsVisible, setMenuIsVisible] = useState(false)
@@ -25,11 +25,7 @@ export const Home = () => {
                     />
                     <Main />
                 </HomeContainer>
-                <OurClockGrid>
-                    <Brands />
-                    <Brands />
-                    <Brands />
-                </OurClockGrid>
+                <Brands />
         </ThemeProvider>
     )
 }

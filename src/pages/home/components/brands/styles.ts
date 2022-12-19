@@ -1,6 +1,19 @@
 import styled from "styled-components";
 
 export const BrandsContainer = styled.div`
+    display: flex;
+    gap: 1.25rem;
+
+    max-width: 68.875rem;
+    margin: 0 auto;
+
+    padding-inline: 1rem;
+
+    overflow-x: auto;
+    scroll-behavior: smooth;
+`
+
+export const BrandsContent = styled.div`
     width: 354px;
     height: 239px;
 
