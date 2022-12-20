@@ -1,0 +1,28 @@
+{
+    "clock": [
+        {
+            "id": "94313731",
+            "name": "Apple Smart I" ,
+            "brands": "Apple",
+            "price": 249.99,
+            "oldPrice": 349.99,
+            "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+        },
+        {
+            "id": "94313762",
+            "name": "Haylou ",
+            "brands": "Xiamo",
+            "price": 249.99,
+            "oldPrice": 349.99,
+            "image": "https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
+        },
+        { 
+            "id": "943137XQ",
+            "name": "Fitbit Max 1",
+            "brands": "Fitbit",
+            "price": 249.99,
+            "oldPrice": 349.99,
+            "image": "https://imgcentauro-a.akamaihd.net/230x230/943137XQ.jpg"
+        }
+    ]
+}

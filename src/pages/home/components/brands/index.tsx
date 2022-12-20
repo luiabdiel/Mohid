@@ -1,11 +1,7 @@
-import { useEffect } from 'react'
 import Clock from '../../../../assets/images/clock-iphone.svg'
 import { BrandsContainer, BrandsContent } from './styles'
 
 export const Brands = () => {
-    useEffect(() => {
-        
-    },[])
 
     return (
         <BrandsContainer>
