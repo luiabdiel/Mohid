@@ -1,25 +1,28 @@
 {
     "clock": [
         {
-            "id": "94313731",
+            "id": 1,
             "name": "Apple Smart I" ,
             "brands": "Apple",
+            "description": "Apple is one of the most famous smart watches providing company.",
             "price": 249.99,
             "oldPrice": 349.99,
             "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
         },
         {
-            "id": "94313762",
+            "id": 2,
             "name": "Haylou ",
             "brands": "Xiamo",
+            "description": "Xiaomi smart watches are produced by MI company.",
             "price": 249.99,
             "oldPrice": 349.99,
             "image": "https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
         },
         { 
-            "id": "943137XQ",
+            "id": 3,
             "name": "Fitbit Max 1",
             "brands": "Fitbit",
+            "description": "FitBit smart watches are best for there health and fitness features.",
             "price": 249.99,
             "oldPrice": 349.99,
             "image": "https://imgcentauro-a.akamaihd.net/230x230/943137XQ.jpg"

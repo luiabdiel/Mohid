@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const BrandsContainer = styled.div`
     display: flex;
+    align-items: center;
     gap: 1.25rem;
 
     max-width: 68.875rem;
@@ -11,6 +12,28 @@ export const BrandsContainer = styled.div`
 
     overflow-x: auto;
     scroll-behavior: smooth;
+
+    margin-block: 4.5625rem;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+`
+
+export const ButtonbrandsCarousel = styled.button`
+    background-color: transparent;
+    border: none;
+
+    font-size: 25px;
+    color: ${({ theme }) => theme["gray-400"]};
+
+    cursor: pointer;
+
+    &:hover {
+        color: ${({ theme }) => theme["black-700"]};
+
+        transition: .1s;
+    }
 `
 
 export const BrandsContent = styled.div`
@@ -22,14 +45,14 @@ export const BrandsContent = styled.div`
     background-color: ${({ theme }) => theme["white-400"]};
 
     display: flex;
+    flex: none;
     align-items: center;
     justify-content: center;
     gap: 1.625rem;
 
-    margin-top: 4.5625rem;
-
     div {
-        width: 10.8125rem;
+        max-width: 10.8125rem;
+        width: 100%;
 
         h1 {
             color: ${({ theme }) => theme["black-700"]};

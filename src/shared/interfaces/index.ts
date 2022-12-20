@@ -10,3 +10,9 @@ export interface IMobileMenuProps {
 export interface IMenuMobileContainerProps {
     isVisible: boolean
 }
+
+export interface IBrandsProps {
+    brands: string
+    description: string
+    id: number
+}
