@@ -1,14 +1,15 @@
-import { useEffect, useState, useRef } from 'react'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+import { useEffect, useState } from 'react'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 import Clock from '../../../../assets/images/clock-iphone.svg'
 import { IBrandsProps } from '../../../../shared/interfaces'
 
-import { BrandsContainer, BrandsContent, ButtonbrandsCarousel } from './styles'
+import { BrandsContainer, BrandsContent } from './styles'
 
 export const Brands = () => {
     const [data, setData] = useState<IBrandsProps []>([])
-    const brandsCarousel = useRef(null)
 
     useEffect(() => {
         fetch('http://localhost:3333/clock')
@@ -16,35 +17,29 @@ export const Brands = () => {
         .then(setData)
     }, [])
 
-    function handleLeftClick (e: React.SyntheticEvent) {
-        e.preventDefault()
-        brandsCarousel.current.scrollLeft -= brandsCarousel.current.offsetWidth
-    }
-    
-    function handleRightClick (e: React.SyntheticEvent) {
-        e.preventDefault()
-        console.log(e.screenX)
-    }
-
     return (
-        <BrandsContainer ref={brandsCarousel}>
-            <ButtonbrandsCarousel onClick={handleLeftClick}>
-                <AiOutlineArrowLeft />
-            </ButtonbrandsCarousel>
-            {data.map(({ brands, description, id}) => {
+        <BrandsContainer>
+            <Swiper
+      spaceBetween={50}
+      slidesPerView={2.5}
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+    >
+        {data.map(({ brands, description, id, image }) => {
                 return (
-                    <BrandsContent key={id}>
-                        <img src={Clock} alt="" />
-                        <div>
-                            <h1>{brands}</h1>
-                            <p>{description}</p>
-                        </div>
-                    </BrandsContent>
+                    <SwiperSlide key={id}>
+                        <BrandsContent>
+                            <img src={image} alt="" />
+                            <div>
+                                <h1>{brands}</h1>
+                                <p>{description}</p>
+                            </div>
+                        </BrandsContent>
+                    </SwiperSlide>
                 )
             })}
-            <ButtonbrandsCarousel onClick={handleRightClick}>
-                <AiOutlineArrowRight />
-            </ButtonbrandsCarousel>
+      
+    </Swiper>
        </BrandsContainer>
     )
 }
