@@ -1,31 +1,63 @@
 {
-    "clock": [
+    "brands": [
         {
             "id": 1,
-            "name": "Apple Smart I" ,
             "brands": "Apple",
-            "description": "Apple is one of the most famous smart watches providing company.",
-            "price": 249.99,
-            "oldPrice": 349.99,
-            "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+            "description": "Apple is one of the most famous smart watches providing compay."
         },
         {
             "id": 2,
-            "name": "Haylou ",
             "brands": "Xiamo",
-            "description": "Xiaomi smart watches are produced by MI company.",
-            "price": 249.99,
-            "oldPrice": 349.99,
-            "image": "https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
+            "description": "Xiaomi smart watches are produced by MI company."
         },
         { 
             "id": 3,
-            "name": "Fitbit Max 1",
             "brands": "Fitbit",
-            "description": "FitBit smart watches are best for there health and fitness features.",
-            "price": 249.99,
-            "oldPrice": 349.99,
-            "image": "https://imgcentauro-a.akamaihd.net/230x230/943137XQ.jpg"
+            "description": "FitBit smart watches are best for there health and fitness features."
+        }
+    ],
+    "watches": [
+        {
+            "id": 4,
+            "brands": "Apple",
+            "name": "Apple Smart I" ,
+            "price": 255.00,
+            "oldPrice": 300.00
+        },
+        {
+            "id": 5,
+            "brands": "Apple",
+            "name": "Apple Smart I" ,
+            "price": 255.00,
+            "oldPrice": 300.00
+        },
+        {
+            "id": 6,
+            "brands": "Apple",
+            "name": "Apple Smart I" ,
+            "price": 255.00,
+            "oldPrice": 300.00
+        },
+        {
+            "id": 7,
+            "brands": "Apple",
+            "name": "Apple Smart I" ,
+            "price": 255.00,
+            "oldPrice": 300.00
+        },
+        {
+            "id": 8,
+            "brands": "Apple",
+            "name": "Apple Smart I" ,
+            "price": 255.00,
+            "oldPrice": 300.00
+        },
+        {
+            "id": 9,
+            "brands": "Apple",
+            "name": "Apple Smart I" ,
+            "price": 255.00,
+            "oldPrice": 300.00
         }
     ]
 }

@@ -12,7 +12,7 @@ export const Brands = () => {
     const [data, setData] = useState<IBrandsProps []>([])
 
     useEffect(() => {
-        fetch('http://localhost:3333/clock')
+        fetch('http://localhost:3333/brands')
         .then((response) => response.json())
         .then(setData)
     }, [])
@@ -49,7 +49,7 @@ export const Brands = () => {
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true,  }}
             >
-                {data.map(({ brands, description, id, image }) => {
+                {data.map(({ brands, description, id }) => {
                     return (
                         <SwiperSlide key={id}>
                             <BrandsContent>
