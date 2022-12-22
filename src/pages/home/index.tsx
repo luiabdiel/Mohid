@@ -6,6 +6,7 @@ import { Header, MenuMobile } from "../../shared/components"
 import { defaultTheme, GlobalStyle } from "../../styles"
 import { Brands } from "./components/brands"
 import { Main } from "./components/main"
+import { Products } from "./components/products"
 
 import { HomeContainer } from "./styles"
 
@@ -26,6 +27,7 @@ export const Home = () => {
                     <Main />
                 </HomeContainer>
                 <Brands />
+                <Products />
         </ThemeProvider>
     )
 }

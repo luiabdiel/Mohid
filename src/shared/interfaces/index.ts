@@ -13,7 +13,13 @@ export interface IMenuMobileContainerProps {
 
 export interface IBrandsProps {
     brands: string
-    description: string
-    image: string
+    description?: string
+    id: number
+}
+
+export interface IProductsProps {
+    name: string 
+    price: number
+    oldPrice: number
     id: number
 }
