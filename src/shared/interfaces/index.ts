@@ -14,5 +14,6 @@ export interface IMenuMobileContainerProps {
 export interface IBrandsProps {
     brands: string
     description: string
+    image: string
     id: number
 }

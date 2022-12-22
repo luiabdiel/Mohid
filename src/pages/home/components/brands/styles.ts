@@ -33,7 +33,7 @@ export const BrandsContent = styled.div`
     align-items: center;
     justify-content: center;
     gap: 1.625rem;
-
+    
     div {
         max-width: 10.8125rem;
         width: 100%;
@@ -50,7 +50,7 @@ export const BrandsContent = styled.div`
         }
     }
 
-    @media (max-width: 890px) {
+    /* @media (max-width: 890px) {
         width: 300px;
         height: 190px;
 
@@ -110,5 +110,5 @@ export const BrandsContent = styled.div`
     @media (max-width: 545px) {
         width: 190px;
         height: 140px;
-    }
+    } */
 `
