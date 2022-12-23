@@ -27,23 +27,23 @@ export const Brands = () => {
                     },
                     480: {
                         slidesPerView: 1,
-                        spaceBetween: 15,
+                        spaceBetween: 5,
                     },
                     745: {
                         slidesPerView: 1.5,
-                        spaceBetween: 15,
+                        spaceBetween: 5,
                     },
                     740: {
                         slidesPerView: 1.5,
-                        spaceBetween: 15,
+                        spaceBetween: 5,
                     },
                     1000: {
                         slidesPerView: 1.5,
-                        spaceBetween: 15,
+                        spaceBetween: 5,
                     },
                     1500: {
                         slidesPerView: 2.5,
-                        spaceBetween: 15,
+                        spaceBetween: 5,
                     },
                 }}
                 pagination={{ clickable: true }}
