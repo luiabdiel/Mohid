@@ -95,3 +95,34 @@ export const ProductsInfos = styled.div`
         }
     }
 `
+
+export const ProductsButtonContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-block: 3.75rem 8.4375rem; 
+
+    button {
+        background-color: ${({ theme }) => theme.purple};
+        border: 2px solid transparent;
+        border-radius: 15px;
+
+        color: ${({ theme }) => theme.white};
+        font-size: 1.125rem;
+        font-weight: 600;
+
+        width: 196px;
+        height: 46px;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            border: 2px solid ${({ theme }) => theme.purple};
+            color: ${({ theme }) => theme["black-700"]};
+
+            transition: .2s;
+        }
+    }
+`

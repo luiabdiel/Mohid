@@ -3,7 +3,7 @@ import Smart from '../../../../assets/images/clock-smart.svg'
 import Stars from '../../../../assets/images/stars.svg'
 import { IProductsProps } from '../../../../shared/interfaces'
 
-import { ProductsContainer, ProductsContent, ProductsGrid, ProductsImage, ProductsInfos, ProductsTitle } from "./styles"
+import { ProductsButtonContainer, ProductsContainer, ProductsContent, ProductsGrid, ProductsImage, ProductsInfos, ProductsTitle } from "./styles"
 
 export const Products = () => {
     const [data, setData] = useState<IProductsProps []>([])
@@ -39,6 +39,9 @@ export const Products = () => {
                     )
                 })}
             </ProductsGrid>
+            <ProductsButtonContainer>
+                <button>View More</button>
+            </ProductsButtonContainer>
         </ProductsContainer>
     )
 }
