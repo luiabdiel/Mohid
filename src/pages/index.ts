@@ -1,6 +1,3 @@
 export * from './home'
 export * from './profile'
 export * from './shoppingCart'
-export * from './home/components/main'
-export * from './home/components/brands'
-export * from './home/components/products'

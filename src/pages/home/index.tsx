@@ -7,6 +7,7 @@ import { defaultTheme, GlobalStyle } from "../../styles"
 import { Brands } from "./components/brands"
 import { Main } from "./components/main"
 import { Products } from "./components/products"
+import { Reviews } from "./components/reviews"
 
 import { HomeContainer } from "./styles"
 
@@ -28,6 +29,7 @@ export const Home = () => {
                 </HomeContainer>
                 <Brands />
                 <Products />
+                <Reviews />
         </ThemeProvider>
     )
 }
