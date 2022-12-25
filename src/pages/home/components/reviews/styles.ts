@@ -32,11 +32,14 @@ export const ReviewsCards = styled.div`
     display: flex;
     gap: 2.9375rem;
 
+    padding-inline: 1rem;
+
     margin-bottom: 12.1875rem;
 `
 
 export const ReviewsCardsContainer = styled.div`
-    width: 32.75rem;
+    max-width: 32.75rem;
+    width: 100%;
     height: 14.9375rem;
 
     padding-inline: 1.875rem 2.625rem;
@@ -47,6 +50,18 @@ export const ReviewsCardsContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 1.75rem;
+
+    @media (max-width: 480px) {
+        width: 22rem;
+        height: 10rem;
+        gap: 0.5rem;
+
+        padding-inline: 1rem;
+
+        img {
+            width: 100px;
+        }
+    }
 `
 
 export const ReviewsCardsText = styled.div`
@@ -61,5 +76,16 @@ export const ReviewsCardsText = styled.div`
         line-height: 1.21rem;
 
         margin-block: 0.625rem 0.8125rem;
+    }
+
+    @media (max-width: 480px) {
+        strong {
+            font-size: 1.5rem;
+        }
+
+
+        p {
+            font-size: 0.75rem;
+        }
     }
 `

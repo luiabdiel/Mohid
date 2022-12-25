@@ -27,4 +27,5 @@ export interface IProductsProps {
 export interface IReviewsProps {
     title: string
     description: string
+    id: number
 }
