@@ -23,3 +23,8 @@ export interface IProductsProps {
     oldPrice: number
     id: number
 }
+
+export interface IReviewsProps {
+    title: string
+    description: string
+}

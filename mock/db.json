@@ -59,5 +59,15 @@
             "price": 255.00,
             "oldPrice": 300.00
         }
+    ],
+    "reviews": [
+        {
+            "title": "Hamza Faizi",
+            "description": "Don’t waste time, just order! This is the best website to puschase smart watches."
+        },
+        {
+            "title": "Hafiz Huzaifa",
+            "description": "I’ve been purchasing smart watches of Mohid for a long time. All the products are good quality."
+        }
     ]
 }
