@@ -61,7 +61,7 @@ export const Reviews = () => {
                             spaceBetween: 10,
                         },
                         1000: {
-                            slidesPerView: 1.5,
+                            slidesPerView: 2,
                             spaceBetween: 50,
                         },
                         1500: {

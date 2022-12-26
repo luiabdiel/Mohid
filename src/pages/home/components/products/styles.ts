@@ -120,7 +120,7 @@ export const ProductsButtonContainer = styled.div`
         &:hover {
             background-color: transparent;
             border: 2px solid ${({ theme }) => theme.purple};
-            color: ${({ theme }) => theme["black-700"]};
+            color: ${({ theme }) => theme.purple};
 
             transition: .2s;
         }

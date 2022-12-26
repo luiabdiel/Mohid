@@ -5,7 +5,9 @@ import { Header, MenuMobile } from "../../shared/components"
 
 import { defaultTheme, GlobalStyle } from "../../styles"
 import { Brands } from "./components/brands"
+import { Footer } from "./components/footer"
 import { Main } from "./components/main"
+import { Newsletter } from "./components/newsletter"
 import { Products } from "./components/products"
 import { Reviews } from "./components/reviews"
 
@@ -30,6 +32,8 @@ export const Home = () => {
                 <Brands />
                 <Products />
                 <Reviews />
+                <Newsletter />
+                <Footer />
         </ThemeProvider>
     )
 }
