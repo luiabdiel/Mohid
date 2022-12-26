@@ -10,6 +10,8 @@ export const FooterContainer = styled.div`
 
     background-color: ${({ theme }) => theme.black};
 
+    margin-top: 5.6875rem;
+
     span {
         color: ${({ theme }) => theme.white};
         font-size: 0.85rem;
