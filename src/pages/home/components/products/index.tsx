@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react'
+
 import Smart from '../../../../assets/images/clock-smart.svg'
 import Stars from '../../../../assets/images/stars.svg'
+import Cart from '../../../../assets/images/cart.svg'
+
 import { IProductsProps } from '../../../../shared/interfaces'
 
-import { ProductsButtonContainer, ProductsContainer, ProductsContent, ProductsGrid, ProductsImage, ProductsInfos, ProductsTitle } from "./styles"
+import { ProductsButtonContainer, ProductsCartIcons, ProductsContainer, ProductsContent, ProductsGrid, ProductsImage, ProductsInfos, ProductsTitle } from "./styles"
 
 export const Products = () => {
     const [data, setData] = useState<IProductsProps []>([])
@@ -24,6 +27,9 @@ export const Products = () => {
                 {data.map(({ name, oldPrice, price, id}) => {
                     return (
                         <ProductsContent key={id}>
+                            <ProductsCartIcons>
+                                <img src={Cart} alt="" />
+                            </ProductsCartIcons>
                             <ProductsImage>
                                 <img src={Smart} alt="" />
                             </ProductsImage>

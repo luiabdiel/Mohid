@@ -1,5 +1,5 @@
 export const ShoppingCart = () => {
     return (
-        <h1>ShoppingCart</h1>
+        <h1>Shopping Cart</h1>
     )
 }

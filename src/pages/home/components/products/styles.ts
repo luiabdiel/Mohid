@@ -46,6 +46,22 @@ export const ProductsContent = styled.div`
     justify-content: center;
 
     padding-inline: 1rem;
+
+    position: relative;
+`
+
+export const ProductsCartIcons = styled.div`
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
+    border-radius: 50%;
+    line-height: 0;
+
+    background-color: ${({ theme }) => theme.purple};
+    color: ${({ theme }) => theme.white};
+
+    cursor: pointer;
 `
 
 export const ProductsImage = styled.div`
