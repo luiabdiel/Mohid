@@ -1,9 +1,9 @@
 ## **Mohid e-Commerce**: loja online de vendas de relógios.
 
+![Design preview from Mohid Ecommerce](./src/assets/images/template.png)
+
 ## **Descrição**
 O Mohid e-Commerce é uma loja online de vendas de relógios. Aqui você encontra os melhores, mais confiáveis e baratos relógios inteligentes do mercado. Desfrute de uma experiência de compra fácil e segura!
-
-![Design preview from Mohid Ecommerce](./src/assets/images/template.png)
 
 ## **Tecnologias Utilizadas**
 O Mohid e-Commerce foi desenvolvido utilizando as seguintes tecnologias:
