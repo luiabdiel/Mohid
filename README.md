@@ -1,86 +1,37 @@
-<p align="center">⚠️ EM DESENVOLVIMENTO ⚠️ </p>
+## **Mohid e-Commerce**: loja online de vendas de relógios.
 
-<div align="center">
- 
-[![Emblemas](http://ForTheBadge.com/images/badges/built-with-love.svg)](#)
- 
- </div>
-
-<h1 align="Star">
-    Mohid - Ecommerce
-</h1>
+## **Descrição**
+O Mohid e-Commerce é uma loja online de vendas de relógios. Aqui você encontra os melhores, mais confiáveis e baratos relógios inteligentes do mercado. Desfrute de uma experiência de compra fácil e segura!
 
 ![Design preview from Mohid Ecommerce](./src/assets/images/template.png)
 
-<p align="center"><a href="https://www.figma.com/file/UlO4fZQurhS4lfAVDJFPPW/Smart-Watch-eCommerce-Website-(Community)?t=beQgD2cMG9J3dGYc-0">Mohid Ecommerce</a>  for study purposes. <a href="https://splendid-peony-668ca6.netlify.app">Deploy</a></p>
+## **Tecnologias Utilizadas**
+O Mohid e-Commerce foi desenvolvido utilizando as seguintes tecnologias:
 
-<hr>
+* React
+* TypeScript
+* React Router
+* JSON Server
+* Swiper
+* Styled Components
 
-[![Linkdin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luiggiabdiel/)
+## **Instalação e Execução**
+Siga as instruções abaixo para executar o projeto localmente:
 
-<br>
+1. Certifique-se de ter o Node.js instalado em seu computador.
+2. Faça o clone deste repositório para o seu ambiente local.
+3. Acesse o diretório raiz do projeto através do terminal.
+4. Execute o comando '__npm install__' para instalar as dependências.
+5. Em um terminal separado, execute o comando '__npm run mock__' para iniciar o servidor JSON simulado.
+6. No terminal principal, execute o comando '__npm start__' para iniciar o servidor de desenvolvimento do front-end.
+7. Após a execução dos passos acima, você pode acessar o Mohid e-Commerce em '__http://localhost:3000__'
 
-## Resources
-[![Resources](https://skillicons.dev/icons?i=react,ts,styledcomponents,git)](https://skillicons.dev)
+## **Funcionalidades**
+* Listagem de produtos: Visualize os relógios disponíveis para compra, com informações detalhadas sobre cada um.
+* Design responsivo: Aproveite uma experiência de compra otimizada em dispositivos móveis e desktops.
 
-<br>
+## **Contribuição**
+Se você deseja contribuir para o aprimoramento do Mohid e-Commerce, fique à vontade para abrir uma *issue* ou enviar um *pull request*.
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Clone the repo, install dependencies, and start the Hugo server locally.
-
-```shell
-git clone https://github.com/luiabdiel/Mohid.git
-cd mohid
-npm i
-npm start
-```
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run dev:server`
-
-project developed with json library to simulate a backend.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Licença**
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo '__LICENSE__' para obter mais informações.
